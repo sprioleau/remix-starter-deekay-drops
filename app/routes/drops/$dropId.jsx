@@ -16,7 +16,6 @@ export const loader = async ({ params }) => {
 
 export const links = () => {
 	return [
-		{ rel: "shortcut icon", href: "/deekay-logo.png", type: "image/x-icon" },
 		{ rel: "stylesheet", href: indexStyles },
 		{ rel: "stylesheet", href: headerStyles },
 		{ rel: "stylesheet", href: footerStyles },
@@ -26,7 +25,7 @@ export const links = () => {
 
 export default function Drop() {
 	const { drop } = useLoaderData();
-	const imageWidth = 150;
+	const imageWidth = 400;
 
 	if (!drop) return null;
 
