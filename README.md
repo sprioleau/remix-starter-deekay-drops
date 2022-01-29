@@ -1,52 +1,15 @@
-# Welcome to Remix!
+![Social image](https://deekay-drops-remix.netlify.app/deekay-drops-social-card-remix.png)
 
-- [Remix Docs](https://remix.run/docs)
+# DeeKay Drops
 
-## Netlify Setup
+[![Netlify Status](https://api.netlify.com/api/v1/badges/633ea05d-bec1-4df2-a243-d42022f99ffb/deploy-status)](https://app.netlify.com/sites/deekay-drops-remix/deploys)
 
-1. Install the [Netlify CLI](https://www.netlify.com/products/dev/):
+---
 
-```sh
-npm i -g netlify-cli
-```
+🚀 Deployed URL: [deekay-drops-remix.netlify.app](https://deekay-drops-remix.netlify.app)
 
-If you have previously installed the Netlify CLI, you should update it to the latest version:
+😝 [SvelteKit version of this app](https://deekay-drops-svelte.netlify.app)
 
-```sh
-npm i -g netlify-cli@latest
-```
+## Acknowledgements
 
-2. Sign up and log in to Netlify:
-
-```sh
-netlify login
-```
-
-3. Create a new site:
-
-```sh
-netlify init
-```
-
-## Development
-
-The Netlify CLI starts your app in development mode, rebuilding assets on file changes.
-
-```sh
-npm run dev
-```
-
-Open up [http://localhost:3000](http://localhost:3000), and you should be ready to go!
-
-## Deployment
-
-There are two ways to deploy your app to Netlify, you can either link your app to your git repo and have it auto deploy changes to Netlify, or you can deploy your app manually. If you've followed the setup instructions already, all you need to do is run this:
-
-```sh
-$ npm run build
-# preview deployment
-$ netlify deploy
-
-# production deployment
-$ netlify deploy --prod
-```
+ - DeeKay Kwon [website](https://deekaykwon.com)
