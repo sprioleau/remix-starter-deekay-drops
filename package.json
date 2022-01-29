@@ -1,5 +1,6 @@
 {
 	"private": true,
+	"version": "0.0.1",
 	"name": "deekay-drops-remix",
 	"description": "A small Remix starter app by San'Quan Prioleau",
 	"license": "",
