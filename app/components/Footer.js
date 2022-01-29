@@ -17,7 +17,7 @@ const Footer = () => {
 			<p>
 				See the{" "}
 				<a href="https://deekay-drops-svelte.netlify.app/" target="_blank" rel="noreferrer">
-					Svelte version
+					SvelteKit version
 				</a>
 			</p>
 		</footer>
