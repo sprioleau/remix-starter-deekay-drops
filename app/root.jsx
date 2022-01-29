@@ -1,7 +1,20 @@
 import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from "remix";
 
 export function meta() {
-	return { title: "Deekay Drops" };
+	return {
+		title: "Deekay Drops",
+		description: "A small Remix starter app by by San'Quan Prioleau",
+		"og:type": "website",
+		"og:url": "https://deekay-drops-remix.netlify.app/",
+		"og:title": "Deekay Drops",
+		"og:description": "A small Remix starter app by by San'Quan Prioleau",
+		"og:image": "https://deekay-drops-remix.netlify.app/deekay-drops-social-card-remix.png",
+		"twitter:card": "summary_large_image",
+		"twitter:url": "https://deekay-drops-remix.netlify.app/",
+		"twitter:title": "Deekay Drops",
+		"twitter:description": "A small Remix starter app by by San'Quan Prioleau",
+		"twitter:image": "https://deekay-drops-remix.netlify.app/deekay-drops-social-card-remix.png",
+	};
 }
 
 export default function App() {
