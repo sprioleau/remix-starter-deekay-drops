@@ -1,5 +1,5 @@
 const Header = () => {
-	const imageWidth = 100;
+	const imageWidth = 80;
 
 	return (
 		<nav className="nav">
