@@ -57,8 +57,10 @@ a {
   transition: color 0.3s ease-out
 }
 
-a:hover {
-  color: var(--accent-1-hover)
+@media (hover: hover) {
+  a:hover {
+    color: var(--accent-1-hover)
+  }
 }
 
 a::after {
@@ -96,11 +98,13 @@ button,
   font-size: 1rem
 }
 
-button:hover,
-.button:hover {
-  --scale: 1.05;
-  --translateY: -5px;
-  color: var(--white)
+@media (hover: hover) {
+  button:hover,
+  .button:hover {
+    --scale: 1.05;
+    --translateY: -5px;
+    color: var(--white)
+  }
 }
 
 button::after,
