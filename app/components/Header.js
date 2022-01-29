@@ -10,7 +10,7 @@ const Header = () => {
 				<h1 className="nav__title">Deekay Drops</h1>
 			</a>
 			<p className="text-muted align-center">
-				A small Svelte starter app by <a href="https://www.sprioleau.dev/">S. Prioleau</a>
+				A small Remix starter app by <a href="https://www.sprioleau.dev/">S. Prioleau</a>
 			</p>
 		</nav>
 	);
