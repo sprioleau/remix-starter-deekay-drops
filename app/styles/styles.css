@@ -1,0 +1,135 @@
+:root {
+  --ff: "Source Sans Pro", sans-serif;
+  --accent-1-rgb: 31, 75, 102;
+  --accent-1: rgb(var(--accent-1-rgb));
+  --accent-1-hover: #3a6d8e;
+  --text: #303030;
+  --bg: #e8e8e8;
+  --white: #fff;
+  --footer-height: 72px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+.app {
+  min-height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: var(--ff);
+  color: var(--text);
+  background-color: var(--bg)
+}
+
+section {
+  width: 100%
+}
+
+img {
+  display: block
+}
+
+ul,
+li {
+  list-style: none
+}
+
+h1,
+h2,
+h3 {
+  color: var(--accent-1);
+  line-height: 1.1
+}
+
+a {
+  position: relative;
+  color: var(--accent-1);
+  text-decoration: none;
+  transition: color 0.3s ease-out
+}
+
+a:hover {
+  color: var(--accent-1-hover)
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  bottom: -0.25rem;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--accent-1);
+  z-index: 1
+}
+
+button,
+.button {
+  --scale: 1;
+  --translateY: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  border: none;
+  appearance: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 10px rgba(var(--accent-1-rgb), 0.3);
+  letter-spacing: 0.5px;
+  margin: 1rem 0;
+  padding: 0.75rem 1.5rem;
+  transform: scale(var(--scale)) translateY(var(--translateY));
+  transition: all 250ms ease-out;
+  background-color: var(--accent-1);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1rem
+}
+
+button:hover,
+.button:hover {
+  --scale: 1.05;
+  --translateY: -5px;
+  color: var(--white)
+}
+
+button::after,
+.button::after {
+  display: none
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: clamp(1.5rem, 5vw, 3rem);
+  min-height: calc(100vh - var(--footer-height));
+}
+
+.grid {
+  display: grid;
+  gap: 2.5rem;
+  margin-bottom: 2rem
+}
+
+.text-muted {
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.no-decor::after {
+  display: none
+}
+
+.align-center {
+  text-align: center
+}
