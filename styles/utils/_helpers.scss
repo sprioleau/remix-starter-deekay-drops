@@ -1,0 +1,11 @@
+.text-muted {
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.no-decor::after {
+  display: none;
+}
+
+.align-center {
+  text-align: center;
+}

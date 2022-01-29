@@ -1,0 +1,19 @@
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem 2rem;
+	background-color: rgba(var(--accent-1-rgb), 0.1);
+	color: var(--white);
+	height: var(--footer-height);
+
+	&__list {
+		display: flex;
+	}
+
+	&__list-item {
+		&:not(:last-child) {
+			margin-right: 0.5rem;
+		}
+	}
+}

@@ -5,7 +5,9 @@
 	"license": "",
 	"scripts": {
 		"dev": "cross-env NODE_ENV=development netlify dev",
-		"build": "remix build",
+		"dev:css": "npm run build:css && node-sass -rw ./styles -o ./app/styles",
+		"build": "npm run build:css && remix build",
+		"build:css": "node-sass ./styles -o ./app/styles --output-style compressed",
 		"postinstall": "remix setup node"
 	},
 	"dependencies": {
@@ -18,7 +20,8 @@
 	},
 	"devDependencies": {
 		"@remix-run/dev": "^1.1.3",
-		"cross-env": "^7.0.3"
+		"cross-env": "^7.0.3",
+		"node-sass": "^7.0.1"
 	},
 	"engines": {
 		"node": ">=14"
