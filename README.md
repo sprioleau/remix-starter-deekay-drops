@@ -24,7 +24,7 @@ _Screenshots via [Pretty Page](https://prettypage.vercel.app/)_
 Clone this repo
 
 ```bash
-git clone https://github.com/sprioleau/swatches.git
+git clone https://github.com/sprioleau/remix-starter-deekay-drops.git
 ```
 
 Install via npm
@@ -45,7 +45,7 @@ npm run dev
 | :-------------------- | :------------------------------------------------ |
 | JavaScript            | -                                                 |
 | Remix                 | Full-stack React framework, server-side rendering |
-| Unsplash API          | High-quality images                               |
+| Cheerio               | DOM parsing (web scraping)                        |
 | Netlify               | Hosting, severless functions                      |
 
 ## ✨ Features

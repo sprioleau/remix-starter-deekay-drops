@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"version": "0.0.1",
-	"name": "@sprioleau/deekay-drops-remix",
+	"name": "@sprioleau/remix-starter-deekay-drops",
 	"description": "A small Remix starter app by San'Quan Prioleau",
 	"author": "San'Quan Prioleau <sq.prioleau@gmail.com>",
 	"repository": {
