@@ -1,8 +1,24 @@
 {
 	"private": true,
 	"version": "0.0.1",
-	"name": "deekay-drops-remix",
+	"name": "@sprioleau/deekay-drops-remix",
 	"description": "A small Remix starter app by San'Quan Prioleau",
+	"author": "San'Quan Prioleau <sq.prioleau@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sprioleau/remix-starter-deekay-drops.git"
+	},
+	"keywords": [
+		"GIFs",
+		"DeeKay Kwon",
+		"LETSWALK",
+		"Remix",
+		"starter",
+		"SSG",
+		"SSR"
+	],
+	"contributors": [],
+	"homepage": "https://deekay-drops-remix.netlify.app",
 	"license": "",
 	"scripts": {
 		"dev": "cross-env NODE_ENV=development netlify dev",
