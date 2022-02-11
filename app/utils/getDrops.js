@@ -1,4 +1,4 @@
-import cheerio from "cheerio";
+import { load } from "cheerio";
 
 const getDrops = async () => {
 	const scrapeUrl = "https://deekaykwon.com/letswalk";
@@ -6,7 +6,7 @@ const getDrops = async () => {
 	try {
 		const response = await fetch(scrapeUrl);
 		const html = await response.text();
-		const $ = cheerio.load(html);
+		const $ = load(html);
 		const images = [];
 
 		$(".image-block-wrapper img").each((i, image) => {
